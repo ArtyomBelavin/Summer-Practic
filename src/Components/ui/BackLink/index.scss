@@ -1,0 +1,9 @@
+.backlink {
+  font-size: 20px;
+  color: #000;
+  transition: color 0.3s ease-in-out;
+
+  &:hover {
+    color: blue;
+  }
+}

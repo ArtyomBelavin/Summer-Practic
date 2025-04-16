@@ -1,0 +1,64 @@
+.client__wrapper {
+  background-color: #d9d9d9;
+  border: 1px solid #857878;
+  border-radius: 20px;
+  padding: 45px 5px;
+}
+
+.client__descr {
+  text-align: center;
+  margin-bottom: 9px;
+  font-size: 24px;
+}
+
+.client__filter__wrapper {
+  padding: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  background-color: #6b6161;
+  max-width: 824px;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.filter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
+  &__remont {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  &__rooms {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  &__btns {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+}
+
+.card__container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.search__title {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 5px;
+}

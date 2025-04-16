@@ -1,0 +1,19 @@
+.ui__btn {
+  text-align: center;
+  padding: 4px 17px;
+  color: #000;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+
+  &:hover {
+    background-color: #8d8b8b;
+  }
+
+  &--active {
+    background-color: #344253;
+    padding: 4px 17px;
+    border-radius: 20px;
+    color: #fff;
+  }
+}
