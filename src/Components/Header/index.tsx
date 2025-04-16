@@ -10,11 +10,11 @@ export const Header = () => {
             Главная
           </Link>
           <div className="header__auth">
-            <Link className="header__link" to="/admin">
+            <Link className="header__link" to="auth/login">
               Войти
             </Link>
-            <Link className="header__link" to="/admin">
-              Зарегистрироватся
+            <Link className="header__link" to="auth/reg">
+              Зарегистрироваться
             </Link>
           </div>
         </nav>
